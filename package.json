@@ -1,0 +1,18 @@
+{
+  "name": "kod-cloud-web-deploy",
+  "version": "1.0.2",
+  "description": "deploy your web to KodCloud",
+  "main": "index.js",
+  "author": "skyTNT",
+  "license": "MIT",
+  "bin": {
+    "kdw-deploy": "bin.js"
+  },
+  "dependencies": {
+    "archiver": "^5.1.0",
+    "axios": "^0.21.1",
+    "commander": "^6.2.1",
+    "form-data": "^3.0.0",
+    "qs": "^6.9.4"
+  }
+}
